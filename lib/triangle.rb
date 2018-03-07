@@ -10,5 +10,5 @@ class Triangle
       if @length1 == @length2 && @length2 == @length3 && @length1 == 0 ||
         @length1 + @length2 <= @length3 || @length2 + @length3 <= @length1 || @length1 + @length3 <= @length2
         raise TriangleError
-
+end
 end
